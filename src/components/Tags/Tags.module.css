@@ -1,0 +1,18 @@
+.tag_html{
+    color: white;
+    background-color: red;
+    padding: 0.4rem;
+    align-self: flex-start;
+}
+.tag_css{
+    color: white;
+    background-color: green;
+    padding: 0.4rem;
+    align-self: flex-start;
+}
+.tag_js{
+    color: white;
+    background-color: rgb(225, 225, 27);
+    padding: 0.4rem;
+    align-self: flex-start;
+}

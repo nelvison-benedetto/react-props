@@ -17,7 +17,7 @@ footer{
 }
 
 main{
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
   background-color: rgb(41, 61, 79);
   display: flex;
   flex-direction: column;
@@ -53,4 +53,9 @@ main{
   button{
     align-self: flex-start;
   }
+}
+
+.post_tags{
+  display: flex;
+  gap: 1rem;
 }
