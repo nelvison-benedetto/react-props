@@ -1,14 +1,16 @@
-export default function PostCard(){
+//PostCard.jsx
+import Button from '../Button/Button'
+
+export default function PostCard({data}){
     return(
         <div className="post-card">
-            <img src={postimg1} alt="post img" />
+            {/* <img src={data.image} alt="post img" /> */}
             <div className="post-details">
-                <h3>Post1</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aut.
-                </p>
-                <span className="post-price">10.90$</span>
+                <h3>{data.title}</h3>
+                <p>{data.content}</p>
+                {/* <span className="post-price">&euro;{props.price}</span> */}
             </div>
+            {/* <Button/> */}
         </div>
     );
 }
