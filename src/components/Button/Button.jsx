@@ -1,7 +1,7 @@
-import style from '../Button/Button.module.css'
+import style from './Button.module.css'
 
 export default function Button(){
     return(
-        <button className={style.btn-card}>Leggi di più</button>
+        <button className={style.btn_post}>Read more</button>
     );
 }

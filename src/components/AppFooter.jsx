@@ -1,5 +1,7 @@
-export default function AppHeader(){
+export default function AppFooter(){
     return(
-        <h1>The Footer</h1>
+        <footer>
+            <span>&#169; {new Date().getFullYear()} - All Rights Reserved</span>
+        </footer>
     );
 }

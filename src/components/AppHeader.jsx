@@ -1,5 +1,7 @@
 export default function AppHeader(){
     return(
-        <h1>The Header</h1>
+        <header>
+            <h1>React Props</h1>
+        </header>
     );
 }
